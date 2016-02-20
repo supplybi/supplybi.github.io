@@ -1,0 +1,17 @@
+build/
+dist/
+env/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+.idea/
+.idea/workspace.xml
+# due to using tox and pytest
+.tox
+.cache
+.DS_Store
+._.DS_Store
+.pypirc
