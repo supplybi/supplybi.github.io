@@ -1,0 +1,8 @@
+baseurl: "/supplychainpy.github.io"
+url: "https://www.supplychainpy.github.io"
+comments: true
+paginate: 10
+paginate_path: "/posts/:num"
+image_path:
+highlighter: 'rouge'
+markdown: kramdown
