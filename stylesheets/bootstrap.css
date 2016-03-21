@@ -6790,7 +6790,8 @@ button.close {
   color: black;
   box-shadow: 10px 5px 5px black;
   margin-right: 3pc;
-  min-height: 350px;
+  min-height: 400px;
+  min-width: 200px;
   opacity: 0.8;
 }
 
@@ -6801,6 +6802,8 @@ button.close {
 
 .row2{
   margin-left: 5pc;
+  min-width: 200px;
+
 }
 .media{
   width: auto;
