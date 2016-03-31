@@ -1,7 +1,7 @@
 title: Supplychainpy Python library for supply chain analysis
 description: "Blog for supplychainpy"
 baseurl: ""
-url: "/supplychainpy/github.io"
+url: ""
 comments: true
 paginate: 10
 paginate_path: "/posts/:num"
