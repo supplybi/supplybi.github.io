@@ -6882,8 +6882,8 @@ button.close {
 .tag-cloud a {
 	text-decoration: none;
 	font-size: 0.8em;
-	background: #42659A;
-	color: white;
+	background: #8dc53e;
+	color:#1e1e1e;
 	padding: 0.125em 0.5em;
 	border-radius: 0.25em;
 }
@@ -6946,4 +6946,193 @@ header p {
 	font-weight: 400;
 	color: #666;
 	text-transform: uppercase;
+}
+.taglist time {
+	display: inline;
+	font-size: 1em;
+}
+/* --------------------------------------------------
+   article styles
+-----------------------------------------------------*/
+.posts, .archive {
+	padding: 0 1em 0;
+}
+article header {
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #aaa;
+}
+article h2 {
+	font-size: 2em;
+	font-weight: 400;
+	line-height:1.2;
+	color: #8dc53e;
+	margin-bottom:0.2em;
+}
+article h3 {
+	font-weight: 400;
+	font-size: 1.4em;
+	color: #8dc53e;
+	margin-bottom: 0;
+}
+article h2 a {
+	text-decoration:none;
+}
+article time {
+	display: block;
+	font-size: 0.8em;
+	color: #666;
+	margin-bottom: 0;
+}
+a.more {
+	display: block;
+	text-align: right;
+}
+a.more:before {
+	content: '[';
+}
+a.more:after {
+	content: ']';
+}
+p code {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+pre {
+	font-size: 1.4em;
+	line-height: 1.6;
+	color: white;
+	padding: .5em 1em;
+	margin-bottom: 1em;
+	border-left: 1em solid #42659A;
+	background: #666;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 90%;
+}
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+figcaption {
+	font-size: 0.9em;
+	font-style: italic;
+}
+blockquote {
+	font: 1.5em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-weight: 400;
+	color: #6d6d6d;
+	padding-left: 1em;
+	margin: 1em 0;
+	border-left: 4px solid #6d6d6d;
+}
+cite {
+	display: block;
+	font-size: 0.8em;
+	margin-top: 0.5em;
+}
+article footer {
+	background: none;
+	border-top: 1px solid #aaa;
+	font-size: 0.8em;
+	padding: 1em 0;
+}
+dt {
+	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #8dc53e;
+	margin-bottom:0;
+}
+dd {
+	margin-bottom:1em;
+}
+.taglist time {
+	display: inline;
+	font-size: 1em;
+}
+.pagination {
+	width: 100%;
+	font-size: 1.2em;
+}
+.prevLink {
+	float: left;
+	width: 50%;
+}
+.nextLink {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+.previous:before {
+	content: '\00ab\00a0';
+}
+.next:after {
+	content: '\00a0\00bb';
+}
+
+
+
+/* --------------------------------------------------
+  Global settings
+-----------------------------------------------------*/
+body {
+	font: 200% 'Roboto Slab', Georgia, serif;
+	background: white;
+	direction: ltr;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-weight: 700;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+a {
+	color: #8dc53e;
+	line-height: inherit;
+}
+a:hover {
+	color: #213149;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+.cr {
+	clear: right;
+}
+.cl {
+	clear: left;
+}
+.cb {
+	clear: both;
 }

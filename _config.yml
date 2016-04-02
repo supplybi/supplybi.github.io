@@ -4,7 +4,7 @@ baseurl: ""
 url: ""
 comments: true
 image_path:
-highlighter: 'rouge'
+highlighter: rouge
 markdown: kramdown
 paginate: 4
 paginate_path: '/blog/page:num/'

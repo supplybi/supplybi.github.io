@@ -1,41 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        {% include base.html %}
-        <meta charset="utf-8"/>
-        <title>supplychainpy</title>
-        <meta name="description" content=""/>
-        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/stylesheets/bootstrap.css">
-    </head>
-    <body class="alternatebackground">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed"
-                          data-toggle="collapse"
-                          data-target="#collapsemenu"
-                          aria-expanded="false">
-                      <span class="sr-only"> Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button>
-                  <a href="{{base}}" class="navbar-brand">
-                      <img src="/assets/logo.png">
-                  </a>
-              </div>
-              <div class="collapse navbar-collapse" id="collapsemenu">
-                 <ul class="nav navbar-nav">
-                     <li><a href="{{base}}">Home</a></li>
-                     <li><a href="/about/">About</a></li>
-                     <li><a href="/blog/">Blog</a></li>
-                     <li><a href="http://supplychainpy.readthedocs.org/en/latest/?badge=latest">Documentation</a></li>
-                </ul>
-              </div>
+<head>
+    {% include base.html %}
+    <meta charset="utf-8"/>
+    <title>supplychainpy</title>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="{{base}}/stylesheets/syntax.css">
+</head>
+<body class="alternatebackground">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="http://www.supplychainpy.org" class="navbar-brand">
+                <img src="/assets/logo.png">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav">
+                <li><a href="http://www.supplychainpy.org">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="http://supplychainpy.readthedocs.org/en/latest/?badge=latest">Documentation</a></li>
+            </ul>
+        </div>
 
-          </div>
-      </nav>
-  </body>
+    </div>
+</nav>
+</body>
 </html>
