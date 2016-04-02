@@ -6,7 +6,7 @@
     <ul class="archives">
         <li><a href="{{base}}/tags/">All posts</a></li>
         {% for tag in sortedTags %}
-        <li><a href="{{site.baseurl}}/tags/{{ tag | cgi_escape }}">{{ tag }} ({{ site.tags[tag].size }})</a></li>
+        <li>{{ tag }} ({{ site.tags[tag].size }})</li>
         {% endfor %}
     </ul>
     <h3>RSS</h3>
@@ -14,12 +14,12 @@
     <h3>Connect with us</h3>
     <div class="social btn-group-horizontal">
         <!-- Twitter -->
-        <a class="btn btn-twitter" href="https://twitter.com/supplychainpy"><i class="fa fa-twitter"></i> Twitter</a>
+        <a class="btn btn-lg btn-twitter" href="https://twitter.com/supplychainpy"><i class="fa fa-twitter"></i> Twitter</a>
         <!-- Googleplus
         <a class="btn btn-googleplus" href="https://plus.google.com/u/0/+supplychainpy/posts"><i
                 class="fa fa-google-plus"></i> Google+</a>-->
         <!--github-->
-        <a class="btn btn-github" href="https://github.com/supplybi/supplychainpy" title="Github" class="github"><i
+        <a class="btn btn-lg btn-github" href="https://github.com/supplybi/supplychainpy" title="Github" class="github"><i
                 class="fa fa-github"></i>Github</a>
 
     </div>
