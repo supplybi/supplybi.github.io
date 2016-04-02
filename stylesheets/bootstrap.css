@@ -6770,7 +6770,7 @@ button.close {
   background-image: url("../assets/grey1600X1200.png");
   background-repeat: no-repeat;
   min-height: 1200px;
-  background-color: black;
+  background-color: #1e1e1e;
 }
 
 .content{
@@ -6787,13 +6787,24 @@ button.close {
 }
 
 .bback{
-  background-color: white;
-  color: black;
-  box-shadow: 10px 5px 5px black;
-  margin-right: 3pc;
-  min-height: 400px;
-  min-width: 200px;
-  opacity: 0.8;
+    background-color: white;
+    color: black;
+    box-shadow: 10px 5px 5px black;
+    margin-right: 3pc;
+    min-height: 400px;
+    min-width: 200px;
+    opacity: 0.8;
+}
+
+.bkblog{
+    background-color: white;
+    color: black;
+    box-shadow: 10px 5px 5px black;
+    margin-right: 2pc;
+    margin-left: 2pc;
+    min-height: 400px;
+    min-width: 200px;
+    opacity: 0.8;
 }
 
 .bback {
@@ -6818,7 +6829,7 @@ button.close {
   height: 120px;
   width: 120px;
   border-radius: 100pc;
-  margin-left: 25%;
+  margin-left: 20%;
   margin-top: 10%;
 }
 
@@ -6833,4 +6844,106 @@ button.close {
   bottom: 0;
   width: 100%;
 
+}
+
+.posts, .archive {
+	padding: 0 1em 0;
+}
+
+.posts, .archive {
+	float: right;
+	width: 70%;
+	padding-right: 2.5%;
+}
+
+.archive ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.archive h3 {
+	font-size: 1.4em;
+}
+.archive h3:target {
+	color: #dc8b21;
+	font-size: 1.6em;
+}
+.archive li {
+	margin-bottom: 0.5em;
+}
+.tag-cloud {
+	max-width: 600px;
+}
+.tag-cloud li {
+	display: inline-block;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+}
+.tag-cloud a {
+	text-decoration: none;
+	font-size: 0.8em;
+	background: #42659A;
+	color: white;
+	padding: 0.125em 0.5em;
+	border-radius: 0.25em;
+}
+.return {
+	display: none;
+}
+h3:target + .taglist .return {
+	display: block;
+}
+.return a {
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #dc8b21;
+}
+
+.return a:before {
+	content: '\25b2\00a0';
+}
+
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+.cr {
+	clear: right;
+}
+.cl {
+	clear: left;
+}
+.cb {
+	clear: both;
+}
+
+/* --------------------------------------------------
+  header styles
+-----------------------------------------------------*/
+.page-header {
+	padding: 1em 1em 0;
+}
+header {
+	margin-bottom: 2em;
+}
+header h1 {
+	font-size: 2em;
+	line-height:1;
+	margin: 0;
+	text-transform: uppercase;
+    color: #8dc53e;
+}
+header p {
+	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-weight: 400;
+	color: #666;
+	text-transform: uppercase;
 }

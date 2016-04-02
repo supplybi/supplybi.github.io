@@ -5,9 +5,9 @@
   <aside>
     <h3>Archives</h3>
  <ul class="archives">
- 				<li><a href="{{site.baseurl}}/tags/">All posts</a></li>
+ 				<li><a href="{{base}}/tags/">All posts</a></li>
                 {% for tag in sortedTags %}
-                    <li><a href="{{site.baseurl}}/tags/#{{ tag | cgi_escape }}">{{ tag }} ({{ site.tags[tag].size }})</a></li>
+                    <li><a href="{{site.baseurl}}/tags/{{ tag | cgi_escape }}">{{ tag }} ({{ site.tags[tag].size }})</a></li>
                 {% endfor %}
             </ul>
     <h3>RSS</h3>
