@@ -7082,7 +7082,7 @@ dd {
   Global settings
 -----------------------------------------------------*/
 body {
-	font: 200% 'Roboto Slab', Georgia, serif;
+	font: 2em 'Roboto Slab', Georgia, serif;
 	background: white;
 	direction: ltr;
 }
@@ -7138,4 +7138,8 @@ a:hover {
 }
 .social {
   font-size: larger;
+}
+
+figure{
+  font-size: 10px;
 }
