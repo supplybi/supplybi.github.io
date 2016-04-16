@@ -30,8 +30,15 @@ page-type: post
             <p class="nextLink"><a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></p>
             {% endif %}
         </section>
+         <p class="top-link"><a href="#top">return to top</a></p>
     </article>
     {% include sidebar.html %}
-      {% include comments.html %}
+<section>
+    <div  class=" container-fluid" >
+           {% include comments.html %}
+
+    </div>
+
+</section>
 
 </main>

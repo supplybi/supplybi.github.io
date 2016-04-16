@@ -6767,7 +6767,7 @@ button.close {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  background-image: url("../assets/grey1600X1200.png");
+  background-image: url("../assets/grey1920X1440.jpeg");
   background-repeat: no-repeat;
   min-height: 1200px;
   background-color: #1e1e1e;
@@ -6804,7 +6804,7 @@ button.close {
     margin-left: 2pc;
     min-height: 400px;
     min-width: 200px;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .bback {
@@ -6846,6 +6846,10 @@ button.close {
 
 }
 
+.logopad{
+  margin-left: 12%;
+}
+
 .posts, .archive {
 	padding: 0 1em 0;
 }
@@ -6865,7 +6869,7 @@ button.close {
 	font-size: 1.4em;
 }
 .archive h3:target {
-	color: #dc8b21;
+	color: #8dc53e;
 	font-size: 1.6em;
 }
 .archive li {
@@ -6883,7 +6887,7 @@ button.close {
 	text-decoration: none;
 	font-size: 0.8em;
 	background: #8dc53e;
-	color:#1e1e1e;
+	color:white;
 	padding: 0.125em 0.5em;
 	border-radius: 0.25em;
 }
@@ -6966,13 +6970,13 @@ article h2 {
 	font-size: 2em;
 	font-weight: 400;
 	line-height:1.2;
-	color: #8dc53e;
+	color: black;
 	margin-bottom:0.2em;
 }
 article h3 {
 	font-weight: 400;
 	font-size: 1.4em;
-	color: #8dc53e;
+	color: black;
 	margin-bottom: 0;
 }
 article h2 a {
@@ -6995,7 +6999,7 @@ a.more:after {
 	content: ']';
 }
 p code {
-	font-size: 1.2em;
+	font-size: 18px;
 	font-weight: bold;
 }
 pre {
@@ -7005,7 +7009,7 @@ pre {
 	padding: .5em 1em;
 	margin-bottom: 1em;
 	border-left: 1em solid #42659A;
-	background: #666;
+	background: #1e0010;
 	white-space: pre-wrap;
 	white-space: -moz-pre-wrap;
 	white-space: -pre-wrap;
@@ -7082,7 +7086,7 @@ dd {
   Global settings
 -----------------------------------------------------*/
 body {
-	font: 2em 'Roboto Slab', Georgia, serif;
+	font: 1.5em 'Roboto Slab', Georgia, serif;
 	background: white;
 	direction: ltr;
 }
@@ -7142,4 +7146,9 @@ a:hover {
 
 figure{
   font-size: 10px;
+  opacity: 1;
+}
+
+pre code{
+  font-size: 12px;
 }

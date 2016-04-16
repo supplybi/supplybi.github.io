@@ -6,7 +6,7 @@
     <ul class="archives">
         <li><a href="{{base}}/tags/">All posts</a></li>
         {% for tag in sortedTags %}
-        <li>{{ tag }} ({{ site.tags[tag].size }})</li>
+        <li><a href="{{site.baseurl}}/tags/#{{tag}}">{{tag}} ({{ site.tags[tag].size }}) </a></li>
         {% endfor %}
     </ul>
     <h3>RSS</h3>
