@@ -6791,7 +6791,7 @@ button.close {
     color: black;
     box-shadow: 10px 5px 5px black;
     margin-right: 3pc;
-    min-height: 500px;
+    min-height: 370px;
     min-width: 200px;
     opacity: 0.8;
 }
