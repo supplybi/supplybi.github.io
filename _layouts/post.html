@@ -8,8 +8,19 @@ page-type: post
             <header>
                 <h2>{{page.title}}</h2>
                 <time itemprop="dateCreated" datetime="{{page.date}}">
-                    {{ page.date | date: "%B %-d, %Y" }}
+                  <span class="author-name">
+                     by   {{ site.data.authors.[page.author_github].name }} |
+                    </span>
+                    <span class="author-name">
+                    {{ page.date | date: "%B %-d, %Y" }} |
+                    </span>
+                    <a href="www.twitter.com/{{site.data.authors.[page.author_github].twitter}}">
+                        <i class="fa fa-twitter""></i>
+                    </a>
+                    <a href="www.github.com/{{site.data.authors.[page.author_github].github}}">
+                        <i class="fa fa-github"></i></a>
                 </time>
+
             </header>
             {{content}}
 
@@ -30,15 +41,15 @@ page-type: post
             <p class="nextLink"><a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></p>
             {% endif %}
         </section>
-         <p class="top-link"><a href="#top">return to top</a></p>
+        <p class="top-link"><a href="#top">return to top</a></p>
     </article>
     {% include sidebar.html %}
-<section>
-    <div  class=" container-fluid" >
-           {% include comments.html %}
+    <section>
+        <div class=" container-fluid">
+            {% include comments.html %}
 
-    </div>
+        </div>
 
-</section>
+    </section>
 
 </main>
