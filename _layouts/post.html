@@ -2,24 +2,29 @@
 layout: default
 page-type: post
 ---
-<main role="main" class="content container-fluid main bkblog">
+<header>
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <meta name="description" content="Blog posts for supplychainpy python library.">
+</header>
+<main role="main" class="content col-lg-12 container-fluid main bkblog">
     <article class="posts">
         <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
             <header>
-                <h2>{{page.title}}</h2>
-                <time itemprop="dateCreated" datetime="{{page.date}}">
-                  <span class="author-name">
-                     by   {{ site.data.authors.[page.author_github].name }} |
+                <h1>{{page.title}}</h1>
+
+                    <span class="author-name float-left">
+                        by {{ site.data.authors.[page.author_github].name }} |
                     </span>
-                    <span class="author-name">
+                <time class="float-left" itemprop="dateCreated" datetime="{{page.date}}">
                     {{ page.date | date: "%B %-d, %Y" }} |
-                    </span>
+                </time>
                     <a href="http://twitter.com/{{site.data.authors.[page.author_github].twitter}}">
-                        <i class="fa fa-twitter""></i>
+                        <i class="fa fa-twitter "></i>
                     </a>
                     <a href="http://github.com/{{site.data.authors.[page.author_github].github}}">
                         <i class="fa fa-github"></i></a>
-                </time>
+
 
             </header>
             {{content}}
@@ -31,14 +36,14 @@ page-type: post
             </footer>
         </article>
         <section class="post-links">
-            <p>Read more:</p>
+            <h1>Read More:</h1>
             {% if page.previous.url %}
-            <p class="prevLink"><a class="previous" href="{{ site.baseurl }}{{page.previous.url}}">
+            <p class="prevLink"><a rel="prev" class="previous" href="{{ site.baseurl }}{{page.previous.url}}">
                 {{page.previous.title}}</a>
             </p>
             {% endif %}
             {% if page.next.url %}
-            <p class="nextLink"><a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></p>
+            <p class="nextLink"><a rel="next" class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></p>
             {% endif %}
         </section>
         <p class="top-link"><a href="#top">return to top</a></p>
@@ -51,5 +56,4 @@ page-type: post
         </div>
 
     </section>
-
 </main>

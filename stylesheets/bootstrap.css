@@ -7160,3 +7160,14 @@ pre code{
 .author-name{
   margin-righ: 5px;
 }
+
+.hovered{
+  color: red;
+}
+
+.float-left{
+  float: left;
+}
+
+
+

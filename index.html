@@ -5,99 +5,115 @@ layout: default
 ---
 <!doctype html>
 <html>
-  <head>
-      {% include header.html %}
+<head>
+    {% include header.html %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>supplychainpy</title>
-  </head>
+</head>
 
-  <body class=" content container-fluid main bkblog">
-    <div class="content container">
-            <div class=" logopad container-fluid">
+<body class=" content container-fluid main bkblog" title="supplychainpy">
+<title>Supply Chain Analytics</title>
+<div class="content container">
+
+    <div class=" logopad container-fluid">
+
+        <div class=" row">
+            <section class=" col-lg-12">
+                <div class="media"></div>
+                <a href="#" class="media bounceIn" title="logo">
+                    <img src="{{base}}/assets/PY_SM_Logo.png">
+                </a>
+
+            </section>
+        </div>
+    </div>
+
+    <div class=" container-fluid">
+        <div class="row row2">
+            <section class=" bback bback2 col-sm-3">
                 <div class=" row">
-                    <section class=" col-lg-12">
-                        <div class="media"></div>
-                            <a href="#" class="media bounceIn">
-                                 <img src="{{base}}/assets/PY_SM_Logo.png">
-                            </a>
-                    </section>
+
+                    <img src="{{base}}/assets/boxes.png" class="pebble"> </img>
+
                 </div>
-            </div>
-
-            <div class=" container-fluid">
-                <div class="row row2">
-                    <section class=" bback bback2 col-sm-3">
-                         <div class=" row">
-
-                                    <img src="{{base}}/assets/boxes.png" class="pebble"> </img>
-
-                         </div>
-                      <h1>Analyse</h1>
-                       <p>Analyse your inventory profile, identify slow moving and excess stock, devise
-                           inventory policies, plan purchase orders, manage inventory levels and drive
-                           down working capital.</p>
-                    </section>
-                    <section class="bback col-sm-3">
-                        <div class=" row">
-                                <img src="{{base}}/assets/brain.png" class="pebble"> </img>
-                         </div>
-                      <h1>Simulate</h1>
-                       <p>Simulate inventory consumption using a monte carlo simulation. Test the results of analytical
-                       models and identify problems with safety stock allocations, or forecast models and take preemptive
-                           action.</p>
-                    </section>
-                    <section class="bback col-sm-3">
-                                   <div class=" row">
-
-                                    <img src="{{base}}/assets/map.png" class="pebble"> </img>
-
-                         </div>
-                    <h1> Explore</h1>
-                       <p>Explore your supply chain data using the computational power of Python and the many existing
-                           data science and analysis tool. </p>
-                    </section>
+                <h1>Analyse</h1>
+                <p>Analyse your inventory profile, identify slow moving and excess stock, devise
+                    inventory policies, plan purchase orders, manage inventory levels and drive
+                    down working capital.</p>
+            </section>
+            <section class="bback col-sm-3">
+                <div class=" row">
+                    <img src="{{base}}/assets/brain.png" class="pebble"> </img>
                 </div>
-            </div>
-     </div>
+                <h1>Simulate</h1>
+                <p>Simulate inventory consumption using a monte carlo simulation. Test the results of analytical
+                    models and identify problems with safety stock allocations, or forecast models and take preemptive
+                    action.</p>
+            </section>
+            <section class="bback col-sm-3">
+                <div class=" row">
 
-  <div class="content container">
-                <div class=" bback container-fluid">
-                    <div class="row">
-                        <section class=" col-sm-3">
-                          <h3>Features</h3>
-                            <p>
-                            <ul>
-                                <li>Inventory Analysis</li>
-                                <li>Monte Carlo Simulation</li>
-                            </ul>
-                            </p>
-                        </section>
-                        <section class=" col-sm-3">
-                          <h3>Download <span class="label label-default">release 0.0.3</span> </h3>
-                           <p>Package available for download as source from <a href="https://pypi.python.org/pypi/supplychainpy/0.0.3">Pypi</a> </p>
-                        </section>
-                        <section class=" col-sm-3">
-                        <h3> Documentation</h3>
-                           <p>Find latest <a href="http://supplychainpy.readthedocs.org/en/latest/">documentation</a> for quick tutorial and library structure.</p>
-                        </section>
-                        <section class=" col-sm-3">
-                            <h3>Contribute</h3>
-                            <a href="https://twitter.com/supplychainpy" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @supplychainpy</a>
-                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                            <br/>
-                            <p>Discussion and questions over at the  <a href="https://groups.google.com/forum/#!forum/supplychainpy">Community Forum</a> </p>
+                    <img src="{{base}}/assets/map.png" class="pebble"> </img>
 
-                                <p>Contribute to the code base at
-                                    <a href="https://github.com/supplybi/supplychainpy">
-                                        <img src="{{base}}/assets/GitHub-Mark-32px.png">
-                                    </a>
-                                </p>
-
-                        </section>
-                    </div>
                 </div>
-     </div>
+                <h1> Explore</h1>
+                <p>Explore your supply chain data using the computational power of Python and the many existing
+                    data science and analysis tool. </p>
+            </section>
+        </div>
+    </div>
+</div>
 
-  </body>
+<div class="content container">
+    <div class=" bback container-fluid">
+        <div class="row">
+            <section class=" col-sm-3">
+                <h3>Features</h3>
+                <p>
+                <ul>
+                    <li>Inventory Analysis</li>
+                    <li>Monte Carlo Simulation</li>
+                </ul>
+                </p>
+            </section>
+            <section class=" col-sm-3">
+                <h3>Download <span class="label label-default">release 0.0.3</span></h3>
+                <p>Package available for download as source from <a
+                        href="https://pypi.python.org/pypi/supplychainpy/0.0.3" title="pypi">Pypi</a></p>
+            </section>
+            <section class=" col-sm-3">
+                <h3> Documentation</h3>
+                <p>Find latest <a href="http://supplychainpy.readthedocs.org/en/latest/">documentation</a> for quick
+                    tutorial and library structure.</p>
+            </section>
+            <section class=" col-sm-3">
+                <h3>Contribute</h3>
+                <a href="https://twitter.com/supplychainpy" class="twitter-follow-button" data-show-count="false"
+                   data-size="large">Follow @supplychainpy</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + '://platform.twitter.com/widgets.js';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, 'script', 'twitter-wjs');</script>
+                <br/>
+                <p>Discussion and questions over at the <a href="https://groups.google.com/forum/#!forum/supplychainpy">Community
+                    Forum </a></p>
+
+                <p>Contribute to the code base at
+                    <a href="https://github.com/supplybi/supplychainpy">
+                        <img src="{{base}}/assets/GitHub-Mark-32px.png">
+                    </a>
+                </p>
+
+            </section>
+        </div>
+    </div>
+</div>
+
+</body>
 </html>
