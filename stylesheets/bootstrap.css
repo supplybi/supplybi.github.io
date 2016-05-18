@@ -6791,7 +6791,7 @@ button.close {
     color: black;
     box-shadow: 10px 5px 5px black;
     margin-right: 3pc;
-    min-height: 370px;
+    min-height: 390px;
     min-width: 200px;
     opacity: 0.8;
 }
@@ -6829,7 +6829,7 @@ button.close {
   height: 120px;
   width: 120px;
   border-radius: 100pc;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 10%;
 }
 
