@@ -1613,6 +1613,7 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
   min-width: 200px;
+  min-height: 150px;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
@@ -6791,9 +6792,10 @@ button.close {
     color: black;
     box-shadow: 10px 5px 5px black;
     margin-right: 3pc;
-    min-height: 390px;
+    min-height: 530px;
     min-width: 200px;
     opacity: 0.8;
+    text-align: center;
 }
 
 .bkblog{
@@ -6829,10 +6831,13 @@ button.close {
   height: 120px;
   width: 120px;
   border-radius: 100pc;
-  margin-left: 23%;
+
   margin-top: 10%;
 }
 
+.pebblebk{
+  background-color: yellow;
+}
 .pad-well{
   margin-left: 20pc;
   margin-right: 20pc;
@@ -6848,6 +6853,7 @@ button.close {
 
 .logopad{
   margin-left: 12%;
+  min-height: 160px;
 }
 
 .posts, .archive {
@@ -7086,8 +7092,9 @@ dd {
   Global settings
 -----------------------------------------------------*/
 body {
-	font: 1.5em 'Roboto Slab', Georgia, serif;
+	font: 2em 'Roboto Slab', Georgia, serif;
 	background: white;
+    line-height: 1.7em;
 	direction: ltr;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -7169,5 +7176,17 @@ pre code{
   float: left;
 }
 
+.main-logo{
+  opacity: 0.0;
+}
+
+.logo{
+  min-width: 300px;
+}
 
 
+
+#forum{
+  margin-left: 25pc;
+  margin-right: 25pc;
+}

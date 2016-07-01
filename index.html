@@ -3,38 +3,26 @@ title: supplychainpy
 layout: default
 
 ---
-<!doctype html>
-<html>
-<head>
-    {% include header.html %}
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>supplychainpy</title>
-</head>
 
-<body class=" content container-fluid main bkblog" title="supplychainpy">
-<title>Supply Chain Analytics</title>
 <div class="content container">
-
     <div class=" logopad container-fluid">
 
         <div class=" row">
-            <section class=" col-lg-12">
+            <section id="logo" class=" col-lg-12">
                 <div class="media"></div>
-                <a href="#" class="media bounceIn" title="logo">
-                    <img src="{{base}}/assets/PY_SM_Logo.png">
+                <a href="#" class="media" title="logo">
+                    <img id="main-logo" src="{{base}}/assets/PY_SM_Logo.png"/>
                 </a>
-
             </section>
         </div>
     </div>
 
-    <div class=" container-fluid">
+    <div class=" container-fluid" id="cards">
         <div class="row row2">
             <section class=" bback bback2 col-sm-3">
                 <div class=" row">
 
-                    <img src="{{base}}/assets/boxes.png" class="pebble"> </img>
+                    <img src="{{base}}/assets/boxes.png" id="pebble1" class="pebble "> </img>
 
                 </div>
                 <h1>Analyse</h1>
@@ -44,22 +32,22 @@ layout: default
             </section>
             <section class="bback col-sm-3">
                 <div class=" row">
-                    <img src="{{base}}/assets/brain.png" class="pebble"> </img>
+                    <img src="{{base}}/assets/brain.png" id="pebble2" class="pebble "> </img>
                 </div>
                 <h1>Simulate</h1>
-                <p>Simulate inventory consumption using a monte carlo simulation. Test the results of analytical
+                <p>Simulate inventory consumption, test the results of analytical
                     models and identify problems with safety stock allocations, or forecast models and take preemptive
                     action.</p>
             </section>
             <section class="bback col-sm-3">
                 <div class=" row">
 
-                    <img src="{{base}}/assets/map.png" class="pebble"> </img>
+                    <img src="{{base}}/assets/map.png" id="pebble3" class="pebble"> </img>
 
                 </div>
                 <h1> Explore</h1>
                 <p>Explore your supply chain data using the computational power of Python and the many existing
-                    data science and analysis tool. </p>
+                    data science and analysis tools. </p>
             </section>
         </div>
     </div>
@@ -115,5 +103,3 @@ layout: default
     </div>
 </div>
 
-</body>
-</html>
