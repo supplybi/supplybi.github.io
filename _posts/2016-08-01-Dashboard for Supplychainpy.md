@@ -14,7 +14,7 @@ will change. The reporting function is deployed using a web interface and built 
 The Reports are launched using the command line, with the data source and database location supplied as arguments.
 A GUI interface is launched offering the option to specify the port for the reports run on the local server.
 
-The gif below shows the current state of the reports (using [dummy data](https://github.com/KevinFasusi/supplychainpy/blob/master/data1.csv) to create the dynamic content):
+The Gif below shows the current state of the reports (using [dummy data](https://github.com/KevinFasusi/supplychainpy/blob/master/data1.csv) to create the dynamic content):
 
 ![supplychainpy reporting gif]({{site.baseurl}}/images/supp.gif)
 
