@@ -2,14 +2,14 @@
 layout: post
 title: Reporting Feature For Supplychainpy
 excerpt_separator: <!--more -->
-tags: [Reporting, release]
+tags: [reporting, release]
 author_github: kevinfasusi
 
 ---
 
 ## What to Expect from the Reporting Feature in Release 0.0.4?
 
-Release 0.0.4 is set officially for August 31, 2016, and the likelihood is that that the sneak peek offered in the Gif below
+~~Release 0.0.4 is set officially for August 31, 2016~~ Release 0.0.4 is still in development ("the best-laid schemes of mice and men..." Please read the forum post on the [delay](https://groups.google.com/d/msg/supplychainpy/TwQG9IZgjvU/3au925dlBwAJ)). The likelihood is that that the sneak peek offered in the Gif below
 will change. The reporting function is deployed using a web interface and built with Flask, jinja, jQuery, javascript and SQLalchemy and powered by the supplychainpy library (Python and Cython).<!--more -->
 The Reports are launched using the command line, with the data source and database location supplied as arguments.
 A GUI interface is launched offering the option to specify the port for the reports run on the local server.
@@ -28,8 +28,6 @@ There are three main reasons for adding a reporting feature to supplychainpy:
 1. To provide the ability to visualise data and spot trends, allowing analysts to get a "feel" for their data.
 2. To provide a set of generic default reports, to showcase some general uses cases and highlight the capabilities of the library.
 3. To provide more choice.
-
-
 
 Enterprise Resource Planning (ERP) tools often come with some reporting functionality. Unfortunately, teams are
 rarely satisfied with the suite of reporting features provided. Sometimes adoption of a suite of reports fails
@@ -54,11 +52,9 @@ findings. The review states:
 Supplychainpy reports provide an alternative for an analyst from conventional tools and a springboard to increase competitive advantages.
 In release 0.0.4 Supplychainpy will debut the reporting feature.
 
-
 ## Plans for Future Releases
 
 Currently, the reporting feature is still under development. Planned development and modifications before debut release include currency conversion, inventory policy generator and general formatting and presentation. An Assistant application directly in Excel is also in development. A full list enhancements are listed on the issues page on [GitHub](https://github.com/KevinFasusi/supplychainpy/issues).
-
 
 ### Suppplychainpy Excel Assistant
 

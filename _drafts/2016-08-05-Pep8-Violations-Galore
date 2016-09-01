@@ -1,0 +1,29 @@
+---
+layout: post
+title: Reporting Feature For Supplychainpy
+excerpt_separator: <!--more -->
+tags: [code review, pep 8]
+author_github: kevinfasusi
+
+---
+# Pep8 Violations Galore: The not so good, the quite bad and the seriously ugly<!--more -->
+
+
+During the deep dive for release 0.0.2. Two things stood out like a sore thumbs, the gratuitous use of lambda functions
+and Decimals.
+
+## Sinful use of Lambdas
+
+Lamdba functions are anonymous functions and assigning them to a variable just duplicates the functionality of defining a function
+with none of the readability. In the
+
+
+The following function is much more readable than the lambda counterpart:
+
+```python
+
+def x(): return y
+
+
+```
+
