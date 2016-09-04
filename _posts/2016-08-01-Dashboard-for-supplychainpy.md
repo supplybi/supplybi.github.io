@@ -56,7 +56,7 @@ In release 0.0.4 Supplychainpy will debut the reporting feature.
 
 Currently, the reporting feature is still under development. Planned development and modifications before debut release include currency conversion, inventory policy generator and general formatting and presentation. An Assistant application directly in Excel is also in development. A full list enhancements are listed on the issues page on [GitHub](https://github.com/KevinFasusi/supplychainpy/issues).
 
-### Suppplychainpy Excel Assistant
+### Supplychainpy Excel Assistant
 
 A brief word on the supplychainpy Excel Assistant, Excel is treated like an unloved child by reporting suites and ERP tools. In an attempt to make Excel a first class citizen in your workflow, a supplychainpy Assistant is also in development. This Assistant is an Excel add-in and allows an analyst quickly to transfer some of the default reporting analysis over to their Excel workbook. The Assistant reduces the immediate need to
 know how to use a library such as openpyxl or xlwings, although the Assistant is not a panacea. For better control and analysis, learning to use a python library explicitly for interacting with Excel is best.
