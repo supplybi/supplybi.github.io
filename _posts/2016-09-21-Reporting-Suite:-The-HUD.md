@@ -7,7 +7,7 @@ author_github: kevinfasusi
 ---
 
 The critical role of the reporting feature in the supplychainpy library, is to call out important information quickly.
-The reports use what we like to refer to as a "Heads up Display" (HUD) to highlight key values and KPIs. 
+The reports use what we like to refer to as a "Heads up Display" (HUD) to highlight key values and KPIs. <!--more -->
 As seen below, the HUD is a row of boxes (Slates), that sits on top of the main charts, analysis and tabular breakdowns.
 
 ![supplychainpy reporting gif]({{site.baseurl}}/images/HUD.png)
