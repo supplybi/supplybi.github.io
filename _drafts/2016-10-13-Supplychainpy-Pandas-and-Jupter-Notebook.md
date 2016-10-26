@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Analysing Inventory with Supplychainpy, Pandas and Jupyter Notebook
+title: Demand planning with Supplychainpy, Pandas and Jupyter Notebook
 excerpt_separator: <!--more -->
 tags: [reporting, reporting features, forecasting]
 author_github: kevinfasusi
 ---
-
 
 
 ## Using Pandas With supplychainpy

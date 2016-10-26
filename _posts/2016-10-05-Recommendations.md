@@ -30,10 +30,10 @@ below shows the recommendation feed and search functionality:
 ## Traffic Lights
 Each recommendation also contains a traffic light indicator. The traffic lights can be summarised as:
 
-- Green: quantity-on-hand (QOH) is capable of satisfying demand based on historical analysis and service level set in analysis
-- Amber: QOH is below reorder level, expecting a purchase order to be raised.
-- Red: QOH is below the quantity apportioned for safety (buffer stock) and future demand is consuming safety stock
-- White: QOH is below 50% of quantity apportioned for safety stock and the inability to meet demand from QOH is highly probable.
+- Green - quantity-on-hand (QOH) is capable of satisfying demand based on historical analysis and service level set in analysis.
+- Amber - QOH is below reorder level, expecting a purchase order to be raised.
+- Red - QOH is below the quantity apportioned for safety (buffer stock) and future demand is consuming safety stock.
+- White - QOH is below 50% of quantity apportioned for safety stock and the inability to meet demand from QOH is highly probable.
   
 The traffic light indicates the probability of stockout and not necessarily the 'health' of the SKU in question. An SKU may, for instance, receive a green indicator when overstocked.  Although the excess stock is detrimental to the inventory profile, increasing the additional working capital tied up in the SKU, exposure to the risk of obsolescence and shrinkage, the SKU is not at any immediate risk of not meeting expected demand. The issues as mentioned earlier are more medium to long-term. The traffic light system provides an indicator for SKUs requiring immediate remedial action.
 
