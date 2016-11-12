@@ -10,11 +10,11 @@ The critical role of the reporting feature in the supplychainpy library, is to c
 The reports use what we like to refer to as a "Heads up Display" (HUD) to highlight key values and KPIs. <!--more -->
 As seen below, the HUD is a row of boxes (Slates), that sits on top of the main charts, analysis and tabular breakdowns.
 
-![supplychainpy reporting gif]({{site.baseurl}}/images/HUD.png)
+<img src='{{site.baseurl}}/images/HUD.png' class='img-fluid img-responsive'>
 
 The following image shows the HUD in situ:
 
-![supplychainpy reporting gif]({{site.baseurl}}/images/shortage.jpg)
+<img src='{{site.baseurl}}/images/shortage.jpg' class='img-fluid img-responsive'>
 
 The content inside each slate is dynamic with hyperlinks for SKUs, classifications and warnings which lead to further analysis.
 Clicking the SKU `KR202-225`, navigates to a page which presents facts and figures related only to this SKU. 

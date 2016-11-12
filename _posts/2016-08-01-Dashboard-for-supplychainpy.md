@@ -16,7 +16,7 @@ A GUI interface is launched offering the option to specify the port for the repo
 
 The Gif below shows the current state of the reports (using [dummy data](https://github.com/KevinFasusi/supplychainpy/blob/master/data1.csv) to create the dynamic content):
 
-![supplychainpy reporting gif]({{site.baseurl}}/images/supp.gif)
+<img src='{{site.baseurl}}/images/supp.gif' class='img-fluid img-responsive'>
 
 There is still a lot to do, and subsequent versions will provide improvements. Importantly, the
 reports are supposed to be smaller in scale than large sprawling enterprise packages. The reports are a supplement and not a replacement for more comprehensive solutions.

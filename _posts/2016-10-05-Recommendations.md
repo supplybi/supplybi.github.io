@@ -16,7 +16,7 @@ The recommendations generated as part of the detailed breakdown for a
 specific stock keeping unit (SKU), use KPI's and data from the analysis to provide a comparative understanding of the SKU in the context of the current inventory profile. The recommendation focuses on the main metrics that may point to specific issues to take into consideration.
 The image below shows the recommendations as a panel within the 'SKU view':
 
-![recommendation panel gif]({{site.baseurl}}/images/rec_panel.png)
+ <img src='{{site.baseurl}}/images/rec_panel.png' class='img-fluid img-responsive'>
 
 ## Recommendation Feed
 Although each SKU in the inventory profile will have a recommendation 
@@ -25,7 +25,7 @@ Navigating to the recommendation feed provides a searchable feed of all the reco
 including a proposal for the entire inventory profile. The Gif 
 below shows the recommendation feed and search functionality:
 
-![recommendation feed gif]({{site.baseurl}}/images/rec_feed.gif)
+<img src='{{site.baseurl}}/images/rec_feed.gif' class='img-fluid img-responsive'>
 
 ## Traffic Lights
 Each recommendation also contains a traffic light indicator. The traffic lights can be summarised as:

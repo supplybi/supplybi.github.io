@@ -8252,18 +8252,43 @@ button.close {
 }
 
 @media (max-width: 700px) {
-    #main-logo , .footer{
+    #main-logo, .footer {
         visibility: hidden;
         background-image: url("../assets/mobile.jpg");
     }
 
-}
+    #footer-brand {
+        visibility: hidden;
+    }
 
-@media (max-width: 1000px) {
-    .col-sm-3{
+    .posts {
         font-size: 0.8em;
     }
-    .alternatebackground{
+
+}
+
+@media (max-width: 450px) {
+    .posts, .archives, h2, h3 {
+        font-size: 0.45em;
+        line-height: 1;
+    }
+
+    .archives {
+        font-size: 0.2em;
+        line-height: 1;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1143px) {
+    .col-sm-3 {
+        font-size: 0.8em;
+    }
+
+    .alternatebackground {
         width: inherit;
     }
 
@@ -8272,6 +8297,7 @@ button.close {
 .bback {
     color: black;
     font-weight: 400;
+    margin-top: 20px;
 }
 
 .row2 {
@@ -8703,3 +8729,7 @@ pre code {
     margin-right: 25pc;
 }
 
+.img-responsive {
+    width: 100%;
+    max-width: 800px;
+}
