@@ -8261,16 +8261,22 @@ button.close {
         visibility: hidden;
     }
 
-    .posts {
+    .well, .posts, #about-suchpy {
         font-size: 0.8em;
     }
 
-}
+    #about-suchpy {
+        line-height: 1
+    }
 
+}
+.bback-about{
+    height: auto;
+}
 @media (max-width: 450px) {
-    .posts, .archives, h2, h3 {
+    .well, #about-suchpy, .posts, .archives, h2, h3 {
         font-size: 0.45em;
-        line-height: 1;
+        line-height: 1
     }
 
     .archives {
@@ -8286,6 +8292,9 @@ button.close {
 @media (max-width: 1143px) {
     .col-sm-3 {
         font-size: 0.8em;
+    }
+    .footer {
+        visibility: hidden;
     }
 
     .alternatebackground {
