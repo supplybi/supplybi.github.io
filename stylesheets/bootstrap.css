@@ -8329,7 +8329,9 @@ button.close {
     .alternatebackground {
         width: inherit;
     }
-
+    .main-panels {
+        font-size: 0.8em;
+    }
 }
 
 .bback {
@@ -8340,7 +8342,7 @@ button.close {
 }
 
 .row2 {
-    margin-left: 5pc;
+
 
 }
 
@@ -8775,7 +8777,7 @@ pre code {
 
 #intro {
     background-image: url("../assets/grey1920X1440.jpeg");
-    padding: 100px;
+    padding-bottom: 20px;
     background-size: cover;
     min-width: 400px;
 }
@@ -8804,3 +8806,7 @@ pre code {
     height: auto;
     opacity: 0.8;
 }
+
+  .main-panels {
+      margin-left: -2px;
+  }
