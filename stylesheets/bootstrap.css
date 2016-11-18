@@ -1655,6 +1655,13 @@ p {
     }
 }
 
+@media (min-width: 766px) {
+    .lead {
+        min-height: 300px;
+        height: 300px;
+    }
+}
+
 small,
 .small {
     font-size: 85%;
@@ -8209,7 +8216,7 @@ button.close {
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    background-image: url("../assets/grey1920X1440.jpeg");
+
     background-repeat: no-repeat;
     min-height: 1200px;
     background-color: #1e1e1e;
@@ -8233,7 +8240,7 @@ button.close {
     color: black;
     box-shadow: 10px 5px 5px black;
     margin-right: 3pc;
-    height: 580px;
+    height: 590px;
     min-height: 580px;
     min-width: 200px;
     opacity: 0.8;
@@ -8270,13 +8277,37 @@ button.close {
     }
 
 }
-.bback-about{
+
+.bback-about {
     height: auto;
 }
+
+@media (max-width: 992px) {
+    .bback {
+        height: 250px;
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bback {
+        height: 400px;
+        min-height: 450px;
+        min-width: 264px;
+    }
+
+    .main-panels {
+        font-size: 0.8em;
+    }
+}
+
 @media (max-width: 450px) {
     .well, #about-suchpy, .posts, .archives, h2, h3 {
-        font-size: 0.45em;
         line-height: 1
+    }
+
+    .features-panel, .features-panel-alt{
+            font: 0.8em 'Roboto Slab', Georgia, serif;
     }
 
     .archives {
@@ -8290,9 +8321,7 @@ button.close {
 }
 
 @media (max-width: 1143px) {
-    .col-sm-3 {
-        font-size: 0.8em;
-    }
+
     .footer {
         visibility: hidden;
     }
@@ -8307,6 +8336,7 @@ button.close {
     color: black;
     font-weight: 400;
     margin-top: 20px;
+    min-width: 262px;
 }
 
 .row2 {
@@ -8741,4 +8771,36 @@ pre code {
 .img-responsive {
     width: 100%;
     max-width: 800px;
+}
+
+#intro {
+    background-image: url("../assets/grey1920X1440.jpeg");
+    padding: 100px;
+    background-size: cover;
+    min-width: 400px;
+}
+
+.features-panel {
+    background-color: white;
+}
+
+.feature-row {
+
+    padding-bottom: 20px;
+}
+
+.features-panel-alt {
+    background-image: url("../assets/background-panel.jpg");
+    background-size: cover;
+    color: white;
+
+}
+
+.bback-about {
+    background-color: white;
+    color: black;
+    box-shadow: 10px 5px 5px black;
+    margin-right: 3pc;
+    height: auto;
+    opacity: 0.8;
 }
