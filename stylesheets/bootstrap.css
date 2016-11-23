@@ -5132,6 +5132,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar {
+    width: auto;
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
@@ -8779,11 +8780,12 @@ pre code {
     background-image: url("../assets/grey1920X1440.jpeg");
     padding-bottom: 20px;
     background-size: cover;
-    min-width: 400px;
+    min-width: 600px;
 }
 
 .features-panel {
     background-color: white;
+        min-width: 600px;
 }
 
 .feature-row {
@@ -8795,6 +8797,7 @@ pre code {
     background-image: url("../assets/background-panel.jpg");
     background-size: cover;
     color: white;
+    min-width: 600px;
 
 }
 
