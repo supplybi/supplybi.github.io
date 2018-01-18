@@ -41,27 +41,27 @@ The recommendation generator for the SKU view was a big win for the Team. The na
 
 Anthony pointed out that it would be beneficial to move the inventory profile recommendation to dashboard view.
 
-#### The traffic light system
+### The traffic light system
 
 The traffic light system for the recommendation feed was also a hit. Although, the difficulty distinguishing between red and amber was raised. The suggestion was made to add traffic lights to the recommendation in the "SKU" view.
 
-#### Tiling and Shadowing (the poor man's material design)
+### Tiling and Shadowing (the poor man's material design)
 
 Apparently, while attempting to mimic the 'Material Design' aesthetic, I had gone retro (retro chic maybe?).  I was told it would be better to remove the harsh shadowing effect on the tiles (the poor man's Material Design) and go with a flat theme.
 
 I may just employ the help of bootstrap to save me from myself and give me that sweet, sweet Material Design look. Failing that, I will accept defeat and go flat.
 
-#### Hidden Sidebar Navigation
+### Hidden Sidebar Navigation
 
 To reveal the sidebar navigation, a user is required to click the 'SUPPLYCHAINPY' logo at the top of the dashboard; this is not clear without prior knowledge (possibly from a gif in the docs).  I was told to change the logo to a hamburger button. The hamburger button is a universal UI element, and I should embrace it.
 
-#### Updating the Charts
+### Updating the Charts
 
 George and Denia pointed out that while the charts were helpful, the ability to drill down would enhance the UX. The graphs were initially created using the Flotr and d3.js charting library. I used d3.js at first because I was learning the library and did not know how difficult it was. Well, I soon discovered, and I opted to use Flotr to move faster. 
 
 The DC.js library provides the drill down functionality, and I will be exploring this option.
 
-#### Chatbot
+### Chatbot
 
 Anthony pointed out that if I was not planning on going the full distance to make the chatbot a more competent bot (ouch!), with the ability to understand a much more expansive lexicon, then I should consider changing the chatbot to a natural language query builder instead. The builder would provide all the benefits of using natural language with none of the ambiguity and frustration of a rudimentary chatbot.
 
