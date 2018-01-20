@@ -14,15 +14,15 @@ page-type: post
                 <h1>{{page.title}}</h1>
 
                     <span class="author-name float-left">
-                        by {{ site.data.authors.[page.author_github].name }} |
+                        by {{ site.data.authors[page.author_github].name }} |
                     </span>
                 <time class="float-left" itemprop="dateCreated" datetime="{{page.date}}">
                     {{ page.date | date: "%B %-d, %Y" }} |
                 </time>
-                    <a href="http://twitter.com/{{site.data.authors.[page.author_github].twitter}}">
+                    <a href="http://twitter.com/{{site.data.authors[page.author_github].twitter}}">
                         <i class="fa fa-twitter "></i>
                     </a>
-                    <a href="http://github.com/{{site.data.authors.[page.author_github].github}}">
+                    <a href="http://github.com/{{site.data.authors[page.author_github].github}}">
                         <i class="fa fa-github"></i></a>
 
 
