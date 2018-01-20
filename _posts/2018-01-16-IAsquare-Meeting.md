@@ -83,7 +83,7 @@ In addition to working towards a one-click install across macOS, Linux and Windo
 
 <img src='{{site.baseurl}}/images/config_gui.jpg' class='img-fluid img-responsive'>
 
-Now you can type 'supplychainpy' into the CLI and you will be presented wit a GUI configuration screen. 
+Now you can type 'supplychainpy' into the CLI and you will be presented with a GUI configuration screen. 
 
 
 ## Back to the Editor
