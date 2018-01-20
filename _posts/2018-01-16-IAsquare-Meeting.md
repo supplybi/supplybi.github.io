@@ -88,4 +88,4 @@ Now you can type 'supplychainpy' into the CLI and you will be presented wit a GU
 
 ## Back to the Editor
 
-I appreciated the feedback from the IAsquare team. Everyone of the team's feedback points supported a clear UX/UI improvement and an actionable deliverable for the reporting suite. All that is left is for me is to get back to the editor and deliver. Thank you, IAsquare.
+I appreciated the feedback from the IAsquare team. Every one of the team's feedback points supported a clear UX/UI improvement and an actionable deliverable for the reporting suite. All that is left is for me is to get back to the editor and deliver. Thank you, IAsquare.
